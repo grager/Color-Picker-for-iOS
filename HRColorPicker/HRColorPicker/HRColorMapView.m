@@ -149,7 +149,7 @@
     self = [super initWithCoder:coder];
     if (self) {
         [self _init];
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor systemBackgroundColor];
     }
     return self;
 }
@@ -158,7 +158,7 @@
     self.alpha = 0;
     _didLayoutSubview = NO;
     self.brightness = 0.5;
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor systemBackgroundColor];
 
     CGFloat lineWidth = 1.f / [[UIScreen mainScreen] scale];
     _lineLayer = [[CALayer alloc] init];

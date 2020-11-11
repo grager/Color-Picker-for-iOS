@@ -59,7 +59,7 @@ typedef struct timeval timeval;
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor systemBackgroundColor];
         [self _init];
     }
     return self;
